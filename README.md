@@ -33,8 +33,10 @@ From the folder `third_party/tensorflow`, run one of the selected build scripts:
 
 - Cross-compilation with Docker + Bazel:
 
-```make -C tensorflow/lite/tools/pip_package docker-build \
-  TENSORFLOW_TARGET=<target> PYTHON_VERSION=<python3 version> ```
+```
+make -C tensorflow/lite/tools/pip_package docker-build \
+  TENSORFLOW_TARGET=<target> PYTHON_VERSION=<python3 version> 
+```
   
 These are the supported targets.
 
