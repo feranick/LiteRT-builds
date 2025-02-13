@@ -19,7 +19,8 @@ The information provided in the [official LiteRT page for building `whl` package
 ##
     cd liteRT
 ##
-   git submodule init && git submodule update
+    git submodule init && git submodule update
+##
    
 From the folder `third_party/tensorflow`, run one of the selected build scripts:
 
